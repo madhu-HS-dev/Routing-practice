@@ -1,0 +1,53 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.logo-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+@media (min-width: 576px) {
+  .logo-heading {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+}
+
+.un-order-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+}
+
+.nav-link-heading {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 550;
+  margin-right: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (min-width: 576px) {
+  .nav-link-heading {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+}
